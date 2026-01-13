@@ -27,7 +27,7 @@ XAML can be inflated at Runtime using reflection. It has advantages, like allowi
 
 ## XAML Source Generation
 
-Starting with .NET 10, XAML can be transformed into C# code at compilaiton time. It provides the following benefits:
+Starting with .NET 10, XAML can be transformed into C# code at compilation time. It provides the following benefits:
 
 - Consistency: same generated code used in Debug and Release
 - Speed: inflation times on device are 10000% (100 times) faster in Debug, and 25% faster on Release. The volume of allocation is reduced in the same proportion
